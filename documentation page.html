@@ -18,16 +18,56 @@
         <div class="divs"><p class="nav-link">Global Variables</p></div>
         <div class="divs"><p class="nav-link"> Constant</p></div>
         <div class="divs"><p class="nav-link">Data type</p></div>
-        <div class="divs"><p class="nav-link">if--else statement</p></div>
+        <div class="divs"><p class="nav-link">if..else statement</p></div>
         <div class="divs"><p class="nav-link">While statement</p></div>
         <div class="divs"><p class="nav-link"> Function declarations</p></div>
         <div class="divs"><p class="nav-link">reference</p></div>
-        
-        
-   
-   
-   
     </nav>
+    <div class="main-div" >
+    <main id="main-doc"> <h1>TECHNICAL DOCUMENTATION</h1>
+        
+        <section id="Introduction">
+            <header class="main-sec" >Introduction</header>
+            <p class="section-text"> JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them. </p>
+            <p class="section-text"> JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example: </p>
+            <ul>
+                <li class="section-text"> Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation. </li>
+                <li class="section-text"> Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server. </li>
+            </ul>
+        </section>
+        <!-- sec -->
+        <section id="What you should already know">
+            <header class="main-sec" >What you should already know</header>
+            <p class="section-text"> This guide assumes you have the following basic background: </p>
+            <ul>
+                <li class="section-text"> A general understanding of the Internet and the World Wide Web (WWW). </li>
+                <li class="section-text">Good working knowledge of HyperText Markup Language (HTML).</li>
+                <li class="section-text"> Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript. </li>
+            </ul>
+        </section>
+        <!-- sec -->
+        <section id="JavaScript and Java">
+            <header class="main-sec" >JavaScript and Java</header>
+            <p class="section-text"> In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods. </p>
+            <p class="section-text"> JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed. </p>
+            <p class="section-text"> JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript. </p>
+        </section>
+        <!-- sec -->
+        <section>
+            <header class="main-sec">Hello world</header>
+            <p class="section-text"> To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code: </p>
+            <pre class="pre-code">
+                <code>
+                    function greetMe(yourName) { alert("Hello " + yourName); }
+                    greetMe("World");
+
+                </code>
+            </pre>
+            <p class="section-text" > Select the code in the pad and hit Ctrl+R to watch it unfold in your browser! </p>
+        </section>
+    </main>
+   </div> 
+   
 
 <style>
 #nav-bar{
@@ -45,15 +85,15 @@
 .header{
     font-size: 175%;
     font-family:  sans-serif;
-    margin-top: 2%;
-    margin-left: -8%;
+    
+    margin-left: -6%;
     margin-bottom: 4%;
 }
 
 .divs {
   border-bottom: 1px solid black;
   height: 50px;
-  width: 100%;
+  width: 90%;
   padding-left: 8%;
 }
 
@@ -63,8 +103,45 @@
   color: rgb(109, 108, 108);
   
 }
+.main-div{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: ;
+    position: absolute;
+    margin-left: 23%;
+    margin-right:3% ;
+}
 
+#main-doc{
+    text-align: center;
+    float: left;
+    text-align: start;
+}
 
+.main-sec{
+    font-size: 175%;
+    font-family:  sans-serif;    
+    
+    text-align: start;
+    }
 
+.section-text{
+    font: 1em sans-serif;
+  font-size: 98%;
+  color: rgb(70, 70, 70);
+  line-height: 158%;
+  padding-bottom: 1%;
+}
+
+.pre-code {
+  background-color: #eee;
+  border: 1px solid #999;
+  size: 100%;
+  height: 80px;
+  width: 100%;
+  padding-left:-90% ;
+  line-height: 150%;
+}
 </style>
 </body></html>
