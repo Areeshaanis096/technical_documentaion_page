@@ -1,3 +1,4 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -6,44 +7,46 @@
     <title>Document</title>
 </head>
 <body style="margin: 0; padding: ">
-    <nav id="nav-bar">
+    <nav id="navbar">
         <div class="divs"> <header class="header">JS Documentation</header> </div>
-        <a href="#Introduction"><div class="divs">
-            <p class="nav-link">Introduction</p></div> 
+        <a href="#Introduction"class="nav-link"><div class="divs">
+            <p>Introduction</p></div> 
         </a>
-        <a href="#What you should already know">
-            <div class="divs"><p class="nav-link"> What you should already know</p></div>
+        <a href="#What_you_should_already_know" class="nav-link">
+            <div class="divs"><p> What you should already know</p></div>
         </a>
-        <a href="#JavaScript and Java">
-            <div class="divs"><p class="nav-link"> JavaScript and Java</p></div>
+        <a href="#JavaScript_and_Java" class="nav-link">
+            <div class="divs"><p> JavaScript and Java</p></div>
         </a>
-        <a href="#Hello World"><div class="divs"><p class="nav-link">Hello World</p></div>
+        <a href="#Hello_World" class="nav-link">
+            <div class="divs"><p>Hello World</p></div>
         </a>
-        <a href="#Variables">
-            <div class="divs"><p class="nav-link"> Variables</p></div>
+        <a href="#Variables" class="nav-link">
+            <div class="divs"><p> Variables</p></div>
         </a>
-        <a href="#Declaring Variables"><div class="divs"><p class="nav-link">Declaring Variables</p></div>
+        <a href="#Declaring_variables" class="nav-link">
+            <div class="divs"><p>Declaring variables</p></div>
         </a>
-        <a href="#Variable Scope">
-            <div class="divs"><p class="nav-link">Variable Scope</p></div>
+        <a href="#Variable_scope" class="nav-link">
+            <div class="divs"><p>Variable scope</p></div>
         </a>   
-        <a href="#Global Variables">
-            <div class="divs"><p class="nav-link">Global Variables</p></div>
+        <a href="#Global_variables" class="nav-link">
+            <div class="divs"><p>Global variables</p></div>
         </a>
-        <a href="#Constant">
-            <div class="divs"><p class="nav-link"> Constant</p></div>
+        <a href="#Constants" class="nav-link">
+            <div class="divs"><p> constants</p></div>
         </a>
-        <a href="#reference">
-            <div class="divs"><p class="nav-link">reference</p></div>
+        <a href="#Reference" class="nav-link">
+            <div class="divs"><p>Reference</p></div>
         </a>
     </nav>
     <div class="main-div">
-    <main id="main-doc"> <h1>TECHNICAL DOCUMENTATION</h1>
+    <main id="main-doc">
         
-        <section id="Introduction">
-            <header class="main-sec">Introduction</header>
+        <section id="Introduction" class="main-section">
+            <header class="main-header"> Introduction </header>
             <p class="section-text"> JavaScript is a cross-platform, 
-object-oriented scripting language. It is a small and lightweight 
+object-oriented scripting language. It is a small and lightweight
 language. Inside a host environment (for example, a web browser), 
 JavaScript can be connected to the objects of its environment to provide
  programmatic control over them. </p>
@@ -67,8 +70,8 @@ on a server. </li>
             </ul>
         </section>
         <!-- sec -->
-        <section id="What you should already know">
-            <header class="main-sec">What you should already know</header>
+        <section id="What_you_should_already_know" class="main-section">
+            <header class="main-header">What you should already know</header>
             <p class="section-text"> This guide assumes you have the following basic background: </p>
             <ul>
                 <li class="section-text"> A general understanding of the Internet and the World Wide Web (WWW). </li>
@@ -77,8 +80,8 @@ on a server. </li>
             </ul>
         </section>
         <!-- sec -->
-        <section id="JavaScript and Java">
-            <header class="main-sec">JavaScript and Java</header>
+        <section id="JavaScript_and_Java" class="main-section">
+            <header class="main-header">JavaScript and Java</header>
             <p class="section-text"> In contrast to Java's compile-time 
 system of classes built by declarations, JavaScript supports a runtime 
 system based on a small number of data types representing numeric, 
@@ -102,8 +105,8 @@ naming conventions and basic control-flow constructs which was the
 reason why it was renamed from LiveScript to JavaScript. </p>
         </section>
         <!-- sec -->
-        <section id="Hello world">
-            <header class="main-sec">Hello world</header>
+        <section id="Hello_World" class="main-section">
+            <header class="main-header">Hello World</header>
             <p class="section-text"> To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code: </p>
             <pre class="pre-code">                
                 <code style="margin-left: -90%;">
@@ -115,8 +118,8 @@ reason why it was renamed from LiveScript to JavaScript. </p>
             <p class="section-text"> Select the code in the pad and hit Ctrl+R to watch it unfold in your browser! </p>
         </section>
     <!-- sec -->
-        <section id="Variables">
-            <header class="main-sec"> Variables</header>
+        <section id="Variables" class="main-section">
+            <header class="main-header"> Variables</header>
             <p class="section-text"> A JavaScript identifier must start 
 with a letter, underscore (_), or dollar sign ($); subsequent characters
  can also be digits (0-9). Because JavaScript is case sensitive, letters
@@ -131,8 +134,8 @@ names are Number_hits, temp99, and _name. </p>
 identifiers, conform to certain rules. </p>
         </section>
     <!-- sec -->
-        <section id="Declaring variables">
-            <header class="main-sec">Declaring variables</header>
+        <section id="Declaring_variables" class="main-section">
+            <header class="main-header">Declaring variables</header>
             <p class="section-text"> You can declare a variable in three ways: </p>
             <p class="section-text"> With the keyword var. For example, </p>
             <pre class="pre-code">                
@@ -157,8 +160,8 @@ identifiers, conform to certain rules. </p>
             <p class="section-text"> This syntax can be used to declare a block scope local variable. See Variable scope below. </p>
         </section>
         <!-- sec -->
-        <section id="Variable scope">
-            <header class="main-sec">Variable scope</header>
+        <section id="Variable_scope" class="main-section">
+            <header class="main-header">Variable scope</header>
             <p class="section-text"> When you declare a variable outside
  of any function, it is called a global variable, because it is 
 available to any other code in the current document. When you declare a 
@@ -184,8 +187,8 @@ the block, which in this case is an if statement. </p>
             </pre>      
         </section>
     <!-- sec -->
-    <section id="Global variables">
-        <header class="main-sec">Global variables</header>
+    <section id="Global_variables" class="main-section">
+        <header class="main-header">Global variables</header>
         <p class="section-text"> Global variables are in fact properties
  of the global object. In web pages the global object is window, so you 
 can set and access global variables using the window.variable syntax. </p>
@@ -196,8 +199,8 @@ called phoneNumber is declared in a document, you can refer to this
 variable from an iframe as parent.phoneNumber. </p>
     </section>
     <!-- sec -->
-    <section id="Constants">
-        <header class="main-sec">Constants</header>
+    <section id="Constants" class="main-section">
+        <header class="main-header">Constants</header>
         <p class="section-text"> You can create a read-only, named 
 constant with the const keyword. The syntax of a constant identifier is 
 the same as for a variable identifier: it must start with a letter, 
@@ -230,24 +233,21 @@ omitted, the identifier is assumed to represent a variable. </p>
         </pre>  
     </section>
     <!-- sec -->
-    <section id="Reference">
-        <header class="main-sec">Reference</header>
+    <section id="Reference" class="main-section">
+        <header class="main-header">Reference</header>
         <ul>
             <li class="section-text">
                 All the documentation in this page is taken from MDN
             </li>
         </ul>
     </section>
-    
-    
     </main>
-
-
    </div> 
+  
    
 
 <style>
-#nav-bar{
+#navbar{
     display: flex;
     flex-direction: column;
     
@@ -272,6 +272,7 @@ omitted, the identifier is assumed to represent a variable. </p>
   height: 50px;
   width: 90%;
   padding-left: 8%;
+
 }
 
 .nav-link{
@@ -284,7 +285,6 @@ omitted, the identifier is assumed to represent a variable. </p>
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: ;
     position: absolute;
     margin-left: 23%;
     margin-right:3% ;
@@ -296,7 +296,11 @@ omitted, the identifier is assumed to represent a variable. </p>
     text-align: start;
 }
 
-.main-sec{
+.main-section{
+    margin: 1%;
+}
+
+.main-header{
     font-size: 175%;
     font-family:  sans-serif;    
     
@@ -319,5 +323,16 @@ omitted, the identifier is assumed to represent a variable. </p>
   font-size: 100%;
   text-align: start;
 }
+
+ @media only screen and (max-width: 700px){
+      .main-div {
+      margin-left: 100%;
+      display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    margin-right:3% ;
+  }
+        } 
 </style>
 </body></html>
